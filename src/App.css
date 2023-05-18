@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(249, 245, 245);
+}
+
+h1 {
+    color: rgb(16, 16, 16);
+    font-size: 50px;
+    box-shadow: 1px 1px 10px 10px;
+}
+
+.f {
+    font-size: 70px;
+}
+
+.login {
+    color: rgb(6, 6, 6);
+    background-color: blue;
+    font-size: 30px;
+    border-radius: 10px 10px;
+}
+
+.click {
+    color: rgb(11, 4, 4);
+    background-color: rgb(30, 255, 0);
+    font-size: 30px;
+    border-radius: 10px 10px;
+}
+
+.click:hover {
+    background-color: white;
+}
+
+.login:hover {
+    background-color: white;
+}
+
+.App {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.write {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px 10px;
+    box-shadow: 1px 1px 8px 1px;
+}
+
+.btn {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(100, 100, 101);
+    border-radius: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.res {
+    width: 1000px;
+    margin: 50px 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+span {
+    font-size: 70px;
+    box-shadow: 1px 1px 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ener {
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.ener:hover {
+
+    background-color: white;
+    border-radius: 10px 10px;
+}
+
+input {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px 10px;
+    margin: 10px 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: red;
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px 0px blue;
+}
+
+.me {
+    background-color: black;
+    color: rgb(24, 155, 207);
+    font-size: 40px;
+    border-radius: 10px 10px;
+}
+
+.me:hover {
+    background-color: white;
+}
+
+.click-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    color: black;
+    font-size: 60px;
+}
+
+@media(max-width:500px){
+    .App {
+        width: 310px;
+        margin-top:  50%;
+    }
+    .dad{
+        margin-left:-78%;
+     
+    }
+    input,span{
+        margin-left: -20%;
+    }
+
+    
+}
